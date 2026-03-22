@@ -31,10 +31,10 @@
 
 ## Частина C (Supervisor)
 
-## C1. Supervisor у Python (перезапуск процесу з лімітом)
+### C1. Supervisor у Python (перезапуск процесу з лімітом)
 
-# worker
+#### worker
 ![](./img/worker.png)
 
-# supervisor
+#### supervisor
 ![](./img/supervisor.png)
