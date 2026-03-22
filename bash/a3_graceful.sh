@@ -8,8 +8,9 @@ function trigger_sigint_sigterm() {
 trap trigger_sigint_sigterm SIGINT
 trap trigger_sigint_sigterm SIGTERM
 
-
+count=1
 while :; do
-    echo "Натисніть [CTRL+C] щоб зупинити..."
+    echo "tick=$count"
+    ((count++))
     sleep 1
 done
